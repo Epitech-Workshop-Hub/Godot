@@ -110,3 +110,6 @@ Pour aller plus loin, essayez d'ajouter :
 * Un score et/ou un chrono affiché sur le HUD.
 * Un feedback visuel ou sonore lorsqu'une cible est touchée.
 
+## Auteur(s)
+| [<img src="https://github.com/Kapwiing.png?size=85" width=85><br><sub>Guillaume CBV</sub>](https://github.com/EdenComp)
+| :---:

@@ -4,7 +4,9 @@
 
 **Ce workshop part du principe que vous maîtrisez déjà les bases de Godot et/ou que vous avez participé au workshop `Godot Introduction`**
 
-Vous devriez déjà avoir installé la [dernière version de **Godot .NET**](https://godotengine.org/download/linux/)  
+**Si vous n'avez pas complété la première partie de cette série de Workshop, repassez sur l'Introduction à Godot :)**
+
+Vous devriez déjà avoir installé la [dernière version de **Godot .NET**](https://godotengine.org/download/linux/)
 Consultez la [documentation officielle de Godot](https://docs.godotengine.org/en/stable/about/introduction.html)
 
 # Introduction
@@ -110,3 +112,6 @@ Pour aller plus loin, essayez d'ajouter :
 * Un score et/ou un chrono affiché sur le HUD.
 * Un feedback visuel ou sonore lorsqu'une cible est touchée.
 
+## Auteur(s)
+| [<img src="https://github.com/Kapwiing.png?size=85" width=85><br><sub>Guillaume CBV</sub>](https://github.com/EdenComp)
+| :---:

@@ -525,6 +525,6 @@ Ajoutez enfin un script à votre `HUD`
 **Trouvez un moyen de connecter votre score en jeu à un label et de l'afficher sur le HUD :)**
 
 ## Auteur(s)
-| [<img src="https://github.com/Kapwiing.png?size=85" width=85><br><sub>Guillaume CBV</sub>](https://github.com/EdenComp)
+| [<img src="https://github.com/Kapwiing.png?size=85" width=85><br><sub>Guillaume CBV</sub>](https://github.com/Kapwiing)
 | :---:
 

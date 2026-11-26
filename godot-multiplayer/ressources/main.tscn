@@ -1,0 +1,75 @@
+[gd_scene format=3]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 16
+
+[node name="VBox" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+
+[node name="TopRow" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+
+[node name="NameEdit" type="LineEdit" parent="Margin/VBox/TopRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(160, 0)
+layout_mode = 2
+placeholder_text = "Pseudo"
+
+[node name="AddressEdit" type="LineEdit" parent="Margin/VBox/TopRow"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+placeholder_text = "IP du serveur (127.0.0.1)"
+
+[node name="HostButton" type="Button" parent="Margin/VBox/TopRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Héberger"
+
+[node name="JoinButton" type="Button" parent="Margin/VBox/TopRow"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Rejoindre"
+
+[node name="StatusLabel" type="Label" parent="Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Pas connecté"
+
+[node name="Columns" type="HBoxContainer" parent="Margin/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PlayersLabel" type="Label" parent="Margin/VBox/Columns"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(220, 0)
+layout_mode = 2
+text = "Joueurs :"
+
+[node name="ChatLog" type="RichTextLabel" parent="Margin/VBox/Columns"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+scroll_following = true
+
+[node name="ChatInput" type="LineEdit" parent="Margin/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+placeholder_text = "Écris un message puis appuie sur Entrée"

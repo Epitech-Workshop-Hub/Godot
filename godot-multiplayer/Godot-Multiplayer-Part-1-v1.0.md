@@ -1,4 +1,4 @@
-# Godot Multijoueur (1/2) : Se connecter et se parler - V0.1
+# Godot Multijoueur (1/2) : Se connecter et se parler - V1.0
 
 Ce workshop a été conçu pour être réalisé sous **Linux**. Il est basé sur la page [High-level multiplayer](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html) de la documentation officielle de Godot, adaptée pour EPITECH Paris.
 
